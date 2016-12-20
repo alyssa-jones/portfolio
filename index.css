@@ -1,0 +1,61 @@
+
+h1 {
+	text-align: center;
+	font-family: Avenir;
+	font-size: 32pt;
+	font-variant-caps: all-small-caps;
+
+}
+.smaller {
+	text-align: center;
+	font-family: Avenir;
+	font-size: 18pt;
+	font-variant-caps: normal;
+
+
+
+}
+body {
+	text-align:left;
+	font-family: tahoma;
+	font-size: 14pt;
+	background-image: url("backgroundimagewebpage.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+
+}
+#unique {
+	font-size: 12pt;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-style: italic;
+	color: white;
+
+}
+p {padding-left: 20px;
+padding-right: 20px;}
+
+button { 
+	font-size: 2em; 
+	color: white;
+	font-family: Avenir;
+	font-weight: bold;
+	font-variant-caps: all-small-caps;
+	text-align: center;
+	border: none;
+	background-color: black;
+	border-radius: 12px;
+	
+
+
+}
+#buttondiv {text-align: center;}
+
+#content {
+	padding-right: 50px;
+	padding-left: 50px;
+	border-radius: -25px;
+	border-color: black;
+
+}
