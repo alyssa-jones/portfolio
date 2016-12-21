@@ -2,15 +2,16 @@
 h1 {
 	text-align: left;
 	font-family: Avenir;
-	font-size: 5em;
+	font-size: 6em;
 	font-variant-caps: all-small-caps;
-	padding-left: 30px;
+	padding-left: 35px;
 	margin-bottom: 20px;
+	padding-top: -20px;
 
 }
 .smaller {
 	text-align: center;
-	font-family: Avenir;
+	font-family: times new roman;
 	font-size: 18pt;
 	font-variant-caps: normal;
 	color: black;
@@ -20,7 +21,7 @@ h1 {
 }
 body {
 	text-align:left;
-	font-family: tahoma;
+	font-family: times new roman;
 	font-size: 1em;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -30,13 +31,13 @@ body {
 #unique {
 	font-size: 1em;
 	padding-left: 250px;
-	padding-right: 250px;
+	padding-right: 650px;
 	font-style: italic;
 	color: black;
 
 }
 p {padding-left: 200px;
-padding-right: 200px;}
+padding-right: 600px;}
 
 button { 
 	font-size: 2em; 
@@ -59,6 +60,24 @@ margin-bottom: 5em;}
 	padding-right: 20px;
 	padding-left: 20px;
 	border-radius: -25px;
-	border-color: black;
+	border-color: white;
+
+}
+
+//#backgroundimage {
+	background-image: url("woodconcrete.jpeg");
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+	//opacity: 0.5;
+    //filter: alpha(opacity=50);
+}
+
+#bodytextcontainer {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
 
 }

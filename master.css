@@ -6,6 +6,7 @@ h1 {
 	font-variant-caps: all-small-caps;
 	padding-left: 30px;
 	margin-bottom: 20px;
+	color: black;
 
 }
 .smaller {
@@ -36,24 +37,8 @@ body {
 
 }
 p {padding-left: 200px;
-padding-right: 200px;}
-
-button { 
-	font-size: 2em; 
-	color: black;
-	font-family: Avenir;
-	font-variant-caps: all-small-caps;
-	text-align: center;
-	border: none;
-	background-color: white;
-	border-radius: 12px;
-	
-
-
-}
-#buttondiv {text-align: left;
-padding-left:50px;
-margin-bottom: 5em;}
+padding-right: 200px;
+padding-top: 0px;}
 
 #content {
 	padding-right: 20px;
@@ -61,4 +46,34 @@ margin-bottom: 5em;}
 	border-radius: -25px;
 	border-color: black;
 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+    float: left;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: none;
+}
+
+li a.active {
+    color: white;
+    background-color: none;
 }
